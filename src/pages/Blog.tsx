@@ -74,8 +74,8 @@ export default function Blog() {
 
                 <div className="pt-8 mt-8 border-t border-slate-50 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 bg-slate-100 rounded-full flex items-center justify-center text-slate-400">
-                       <User size={14} />
+                    <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-100">
+                       <img src="/input_file_0.png" alt="Author" className="w-full h-full object-cover" />
                     </div>
                     <span className="text-xs font-bold text-slate-700">{post.author}</span>
                   </div>

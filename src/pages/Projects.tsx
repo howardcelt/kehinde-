@@ -82,10 +82,7 @@ export default function Projects() {
                   <div className="w-full lg:w-1/2 order-1 lg:order-2">
                     <div className="aspect-square bg-slate-100 rounded-[2.5rem] overflow-hidden relative group">
                        <img 
-                         src={index === 0 
-                           ? "https://images.unsplash.com/photo-1551288049-bbdac8a28a1e?q=80&w=2070&auto=format&fit=crop" 
-                           : "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
-                         } 
+                         src="/input_file_0.png" 
                          alt={project.title}
                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                        />
